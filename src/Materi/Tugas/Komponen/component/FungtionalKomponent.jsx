@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-const FungtionalComponent = ({name}) => {
+const FungtionalKomponent = ({name}) => {
     return (
     <div>
       <h1>Hello, {name}!</h1>
@@ -7,4 +7,4 @@ const FungtionalComponent = ({name}) => {
   );
 }
 
-export default FungtionalComponent;
+export default FungtionalKomponent;
