@@ -1,5 +1,5 @@
 import React from "react";
-// import ClassComponent from "./Pembahasan/classComponent";
+import ClassComponent from "./Pembahasan/ClassComponent";
 import FungtionalKomponent from "./Pembahasan/FungtionalKomponent";
 
 export default class Komponen extends React.Component {
@@ -7,7 +7,7 @@ export default class Komponen extends React.Component {
     return (
       <div>
         <FungtionalKomponent name="John" />
-        {/* <ClassComponent /> */}
+        <ClassComponent />
       </div>
     );
   }
